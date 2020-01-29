@@ -1,0 +1,319 @@
+
+
+
+.pentoneA{
+	color:#ce0023;
+}
+.pentoneB{
+	color:#f9002a;
+}
+.pentoneC{
+	color:#ff627d;
+}
+
+
+
+.pentoneD{
+	color:#15BAE6;
+}
+.pentoneE{
+	color:#15BAE6;
+}
+.pentoneF{
+	color:#3ED6FF;
+}
+
+
+body{
+/* 	max-width:1000px;
+	max-height:800px; */
+	margin : auto auto ;
+}
+
+
+.typo{
+	font-family:"BentonSans";
+}
+
+.header .typo.bold, .typo .header .bold, .typo .header strong, .typo .header b{
+	position:relative;
+	margin-top:-2px;
+}
+
+.typo2{
+	font-family:"U.S. 101";
+}
+
+.typo3{
+	font-family:"ARSMaquette";
+}
+
+.blacktransp{
+	background-color: rgba(23, 23, 23, 0.5);
+}
+
+body{
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.header{
+	
+}
+
+.header .logo{
+	height:100%;
+	width:176px;
+}
+
+.header .version{
+	
+}
+.header .versionNo{}
+
+.github{
+	height:80px;
+	width:80px;
+}
+
+.githubflag{
+	height:100%;
+	background:url(./skin/github.png) no-repeat top left;
+}
+
+.frameline{
+	background:#ce0023;
+	height:5px;
+}
+
+.frameline.top{
+	top:0;
+}
+
+.frameline.bottom{
+	bottom:0;
+}
+
+.topframeline{
+	top:5px;
+}
+
+.bottomframeline{
+	bottom:5px;
+}
+
+.IMAGE{
+	background-size: cover;
+	background-position:100% 50%;
+}
+
+
+
+
+.cinema .cinema_intro{
+	background-image:url(./skin/00.png);
+	background-repeat:no-repeat;
+}
+
+
+
+.cinema .cinema_api{
+	background:#1A1A1A;
+}
+
+.cinema .cinema_about{
+	
+}
+
+
+.bottomcontents{
+	
+}
+
+
+.bottomcontents .desc{
+	position: relative;
+}
+
+.bottomcontents .maindesc{
+	float:left;
+}
+
+.bottomcontents .maindescinside .txtcont{
+	top:-6em;
+}
+
+.bottomcontents .leftovers{
+	left: 1px;
+	top:-3em;
+}
+
+.bottomcontents .punchline{
+	
+}
+
+.all .topframeline{top:0}
+.all .bottomframeline{bottom:0}
+
+/* TWEENABLES */
+
+
+.header{
+	height:5em
+}
+
+.topMarged{top:5em}
+.bottomMarged{bottom:3em}
+
+
+
+/* SETTING RESPONSIVE TO DEFAULT 10PX */
+
+body{
+	font-size:10px;
+}
+
+
+
+/* COLORS */
+.pentoneblock{background:#0c6d88}
+.pentoneborder{border:0px solid #15BAE6}
+.bordered{border-width:1px}
+.rounded{border-radius:4px}
+
+.page{
+	width:100%;
+	position:relative;
+	
+}
+
+.page .pageinside{
+	
+}
+.page .marAuto{
+	width:390px;
+}
+
+.simple{
+	width:390px;
+}
+
+.page .rest{
+	background:#232323;
+}
+.page .rest .blacktransp{
+	background:#1A1A1A;
+}
+
+
+.framecontent .page .pageinside{
+	left:-195px;
+}
+
+#api{}
+.api .element .infos{display:none}
+.api .element.opened  .infos{display:block}
+.api .element hr{display:none}
+.api .element.opened hr{display:block}
+
+
+.sections{
+	top:5.5em;
+	left:1.5em;
+	z-index:300;
+}
+
+
+
+
+
+.frame{
+		background:#15BAE6;
+}
+
+.nav{z-index:3}
+.nav ol{border:1px solid #15BAE6;border-width: 0 1px 1px 0;}
+
+
+.zone{
+    right:1px;
+    left:1px;
+    top:1px;
+    bottom:1px;
+		background:#111;
+		overflow:auto;
+}
+
+.btn{
+	background:#15BAE6 ;
+	/* color:white ; */
+	border:1px solid #0B6077;
+}
+
+
+
+
+
+/*       TESTS        */
+
+
+
+.examplepage{
+	width:500px;
+	height:400px;
+	margin-top:-200px;
+	margin-left:-250px;
+	
+}
+
+.particle{
+	
+
+}
+
+
+.boxtitle{
+    position:absolute;
+    top:-.5em;
+    font-size:3em;
+    height:1em;
+    line-height:1em;
+    left:-250px;
+    width:500px;
+	cursor:default;
+}
+
+
+
+/*  FLOAT NAV  */
+
+.nav ul li .desc {display:none}
+.nav ul li.cur .desc {display:block}
+
+.nav ul li a.examplelink{color:#555}
+.nav ul li a.examplelink:hover{color:#15BAE6}
+.nav ul li.cur a.examplelink{font-size:2em;color:#15BAE6}
+
+a.show:hover{color:#15BAE6}
+
+.browse .desc{display:none}
+
+.desc{
+	width:350px;
+	border:1px solid #15BAE6;border-width: 1px 1px 0 0;
+}
+
+.sidecode{
+	width:500px;
+	border:1px solid #15BAE6;border-width: 0 0 0 1px;
+}
+
+.sidecode textarea{
+	outline:none;
+	resize:none;
+	overflow:auto;
+}

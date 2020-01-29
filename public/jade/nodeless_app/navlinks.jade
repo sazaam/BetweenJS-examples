@@ -1,0 +1,9 @@
+#nav.nav.abs
+  ol.context.LmarginLg
+    - var sections = {'Create':'#', 'To':'#', 'From':'#', 'Tween':'#', 'Delay':'#'}
+    - for(var i in sections) {
+      - var item = sections[i] ;
+      li.floatL.antBG
+        a.dispBlock.padding.HpaddingM(href=item)
+          span= i
+    - }

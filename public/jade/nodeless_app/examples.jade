@@ -1,0 +1,31 @@
+#nav.nav.abs.top0.bottom0.left0.sizeSm
+	ul#browse.browse.txtL.padLg
+		- var sections = examples ;
+		- var j = 0 ;
+		
+		- for(var section in sections) {
+			- var href = '#/en/examples/' + section + '/' ;
+			- var desc = sections[section].description ;
+			- var linkId = 'li_' + section ;
+			li##{linkId}.paddingSm
+				a.examplelink.dispBlock.bold(href=href)
+					span.block= section + '.js'
+				.desc.abs.bottom0.txtL.left0.paddingLg.antBG(style="z-index:100")
+					p.lsXLg.BmarginXLg= desc
+					.links.context
+						a.run.block.floatL.bold.sizeSm.pentoneblock.rounded.pad(href=href)
+							| Run example
+						a.show.block.floatL.bold.sizeSm.Lmar.pad(href=href) Show code
+		- }
+		
+	ol.none.abs.top0.left0.context.padSm.HpadLg.antBG
+		- var sections = examples ;
+		- for(var section in sections) {
+			- var href = '#/en/examples/' + section ;
+			li.floatL.antBG
+				a.dispBlock.padding.HpaddingM(href=href)
+					span= section
+		
+		- }
+		
+			
